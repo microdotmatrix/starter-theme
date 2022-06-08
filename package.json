@@ -1,0 +1,56 @@
+{
+  "name": "the-grove",
+  "version": "1.0.0",
+  "description": "The \"_s\" for Timber: a dead-simple theme that you can build from. The primary purpose of this theme is to provide a file structure rather than a framework for markup or styles. Configure your Sass, scripts, and task runners however you would like!",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timber/starter-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timber/starter-theme/issues"
+  },
+  "homepage": "https://github.com/timber/starter-theme#readme",
+  "dependencies": {
+    "adaptable": "^3.0.0",
+    "gerillass": "^1.3.0",
+    "gsap": "^3.10.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.1.0",
+    "babel-preset-env": "^1.3.3",
+    "browser-sync": "^2.18.8",
+    "browser-sync-webpack-plugin": "^1.1.4",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^5.0.1",
+    "css-loader": "^0.28.0",
+    "dotenv": "^5.0.1",
+    "eslint": "^4.10.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.1",
+    "imagemin-webpack-plugin": "^1.4.4",
+    "img-loader": "^2.0.0",
+    "isdev": "^1.0.1",
+    "postcss-loader": "^1.3.3",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "stylelint-webpack-plugin": "^0.7.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.4.4",
+    "webpack-merge": "^4.1.0"
+  }
+}
